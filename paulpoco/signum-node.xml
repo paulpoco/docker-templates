@@ -2,7 +2,7 @@
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/signum-node.xml</TemplateURL>
   <Beta>True</Beta>
-  <Category>Crypto Currency:</Category>
+  <Category>Crypto:</Category>
   <Date>2021-10-06</Date>
   <Changes>October 6, 2021 Signum-node for Unraid
   </Changes>
