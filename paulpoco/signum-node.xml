@@ -2,10 +2,9 @@
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/signum-node.xml</TemplateURL>
   <Beta>True</Beta>
-  <Category>Crypto Currency:</Category>
-  <Date>2022-01-31</Date>
-  <Changes>
-    October  6, 2021 Signum-node for Unraid
+  <Category>Crypto:</Category>
+  <Date>2021-10-06</Date>
+  <Changes>October 6, 2021 Signum-node for Unraid
     January 30, 2022 Remove port 8121
     January 31, 2022 Fix registry url
   </Changes>
