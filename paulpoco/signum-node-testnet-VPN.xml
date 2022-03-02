@@ -2,7 +2,7 @@
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/signum-node-testnet-VPN.xml</TemplateURL>
   <Beta>True</Beta>
-  <Category>Crypto Currency:</Category>
+  <Category>Crypto:</Category>
   <Date>2022-02-27</Date>
   <Changes>
     October  6, 2021 Signum-node for Unraid
