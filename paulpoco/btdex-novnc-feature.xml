@@ -44,11 +44,6 @@
       <ContainerDir>/opt/btdex/cache</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/btdex-novnc-feature/root</HostDir>
-      <ContainerDir>/root</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:5801]/vnc.html?autoconnect=true</WebUI>
   <Banner></Banner>
