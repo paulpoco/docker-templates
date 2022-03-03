@@ -22,7 +22,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>5801/HostPort>
+        <HostPort>5801</HostPort>
         <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
