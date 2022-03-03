@@ -22,7 +22,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>5801</HostPort>
+        <HostPort>5800/HostPort>
         <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -50,7 +50,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:5801]</WebUI>
+  <WebUI>http://[IP]:[PORT:5800]/vnc.html?autoconnect=true</WebUI>
   <Banner></Banner>
   <Icon>https://github.com/paulpoco/docker-templates/raw/master/paulpoco/images/btdex.png</Icon>
   <ExtraParams></ExtraParams>
