@@ -3,17 +3,19 @@
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/btdex.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Crypto:</Category>
-  <Date>2022-03-01</Date>
+  <Date>2022-03-02</Date>
   <Changes>
-    [center][font size=4]BTDEX Change Log[/font][/center]
+    2022.02.28
+    - Initial release
     
-    [font size=3]2022.03.01[/font]
+    2022.03.01
     - Fixed grammatical errors
     - Fixed default values on the volume
     - Removed optional port 5900
     
-    [font size=3]2022.02.28[/font]
-    - Initial release
+    2022.03.01
+    - reformat change log
+    - word change lof already included
   </Changes>
   <Project>https://btdex.trade/</Project>
   <Name>btdex</Name>
