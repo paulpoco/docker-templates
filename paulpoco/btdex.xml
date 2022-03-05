@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/btdex.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Crypto:</Category>
-  <Date>2022-03-02</Date>
+  <Date>2022-03-04</Date>
   <Changes>
     2022.02.28
     - Initial release
@@ -16,15 +16,18 @@
     2022.03.01
     - reformat change log
     - word change lof already included
+    
+    2022.03.04
+    - add noVNC web browser and firefox for opeing links
   </Changes>
   <Project>https://btdex.trade/</Project>
   <Name>btdex</Name>
   <Description>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.  </Description>
   <Overview>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.   </Overview>
-  <Support>https://github.com/furritos/docker-btdex</Support>
-  <Registry>https://hub.docker.com/r/furritos/docker-btdex:latest</Registry>
-  <GitHub>https://github.com/furritos/docker-btdex</GitHub>
-  <Repository>furritos/docker-btdex:latest</Repository>
+  <Support>https://github.com/furritos/docker-btdex/tree/novnc-feature</Support>
+  <Registry>https://hub.docker.com/r/furritos/docker-btdex:novnc-feature</Registry>
+  <GitHub>https://github.com/furritos/docker-btdex/tree/novnc-feature</GitHub>
+  <Repository>furritos/docker-btdex:novnc-feature</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -32,7 +35,7 @@
     <Publish>
       <Port>
         <HostPort>5800</HostPort>
-        <ContainerPort>5800</ContainerPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -54,7 +57,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:5800]</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Banner></Banner>
   <Icon>https://github.com/paulpoco/docker-templates/raw/master/paulpoco/images/btdex.png</Icon>
   <ExtraParams></ExtraParams>
