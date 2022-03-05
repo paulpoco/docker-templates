@@ -45,18 +45,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Environment>
-    <Variable>
-      <Value>1000</Value>
-      <Name>USER_ID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>1000</Value>
-      <Name>GROUP_ID</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <WebUI>http://[IP]:[PORT:8080]/vnc.html?autoconnect=true</WebUI>
   <Banner></Banner>
   <Icon>https://github.com/paulpoco/docker-templates/raw/master/paulpoco/images/btdex.png</Icon>
