@@ -9,7 +9,7 @@
     - Initial release
   </Changes>
   <Project>https://btdex.trade/</Project>
-  <Name>btdex-novnc-feature</Name>
+  <Name>btdex</Name>
   <Description>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.  </Description>
   <Overview>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.   </Overview>
   <Support>https://github.com/furritos/docker-btdex/tree/novnc-feature</Support>
