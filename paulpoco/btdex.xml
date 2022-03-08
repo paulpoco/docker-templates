@@ -37,7 +37,7 @@
     </Variable>
     <Variable>
       <Name>DISPLAY_HEIGHT</Name>
-      <Value>900|1050</Value>
+      <Value>800|900|1050</Value>
     </Variable>
   </Environment>  
   <Data>
