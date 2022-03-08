@@ -3,19 +3,21 @@
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/btdex.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Crypto:</Category>
-  <Date>2022-03-04</Date>
+  <Date>2022-03-08</Date>
   <Changes>
     2022.03.04
     - Initial release
+    2022.03.08
+    - move to latest fron novnc-feature
   </Changes>
   <Project>https://btdex.trade/</Project>
   <Name>btdex</Name>
   <Description>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.  </Description>
   <Overview>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.   </Overview>
-  <Support>https://github.com/furritos/docker-btdex/tree/novnc-feature</Support>
-  <Registry>https://hub.docker.com/r/furritos/docker-btdex:novnc-feature</Registry>
-  <GitHub>https://github.com/furritos/docker-btdex/tree/novnc-feature</GitHub>
-  <Repository>furritos/docker-btdex:novnc-feature</Repository>
+  <Support>https://github.com/furritos/docker-btdex</Support>
+  <Registry>https://hub.docker.com/r/furritos/docker-btdex:latest</Registry>
+  <GitHub>https://github.com/furritos/docker-btdex</GitHub>
+  <Repository>furritos/docker-btdex:latest</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
