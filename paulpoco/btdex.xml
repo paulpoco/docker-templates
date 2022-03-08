@@ -28,6 +28,16 @@
       </Port>
     </Publish>
   </Networking>
+  <Environment>
+    <Variable>
+      <Name>DISPLAY_WIDTH</Name>
+      <Value>1440|1680</Value>
+    </Variable>
+    <Variable>
+      <Name>DISPLAY_HEIGHT</Name>
+      <Value>900|1050</Value>
+    </Variable>
+  </Environment>  
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/btdex/config</HostDir>
