@@ -5,10 +5,10 @@
   <Category>Crypto:</Category>
   <Date>2022-03-08</Date>
   <Changes>
-    2022.03.04
-    - Initial release
-    2022.03.08
-    - move to latest from novnc-feature tag
+    2022.03.04[br]
+    - Initial release[br]
+    2022.03.08[br]
+    - move to latest from novnc-feature tag[br]
   </Changes>
   <Project>https://btdex.trade/</Project>
   <Name>btdex</Name>
