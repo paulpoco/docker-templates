@@ -33,7 +33,6 @@
   <Repository>signumnetwork/node:3.5.3-h2</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <ExtraParams>--memory=2g --net=container:binhex-delugevpn --init</ExtraParams>
   <Networking>
     <Mode>none</Mode>
     <Publish>
@@ -64,5 +63,5 @@
   <WebUI>http://[IP]:[PORT:9125]</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/signum-network/signum-node/main/resources/images/signum_overlay_logo.ico</Icon>
-  <ExtraParams>--init</ExtraParams>
+  <ExtraParams>--memory=2g --net=container:binhex-delugevpn --init</ExtraParams>
 </Containers>
