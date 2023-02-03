@@ -34,7 +34,7 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>none</Mode>
     <Publish>
       <Port>
         <HostPort>7223</HostPort>
