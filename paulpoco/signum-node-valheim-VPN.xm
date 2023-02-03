@@ -11,6 +11,7 @@
   </Changes>
   <Project>https://github.com/signum-network/signum-node/</Project>
   <Name>signum-node-valheim-VPN</Name>
+  <Requires>binhex-delugevpn</Requires>
   <Description>
     https://www.signum.network/
     The world's first HDD-mined cryptocurrency using an energy efficient and fair Proof-of-Commitment (PoC+) consensus algorithm.
