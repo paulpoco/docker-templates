@@ -20,11 +20,13 @@
       MariaDB (advanced users)
   </Description>
   <Overview>
+    REQUIRES binhex-delugevpn to be installed 1st.  Then follow instructions at Binhex's VPN FAQ Q24.
     Proof of Commitment - ASIC proof / Energy efficient and sustainable mining
     No ICO/Airdrops/Premine
     Turing-complete smart contracts, via Signum SmartJ
     Asset Exchange; Digital Goods Store; Crowdfunds, NFTs, games, and more (via smart contracts); and Alias system
   </Overview>
+  
   <Support>https://github.com/signum-network/signum-node</Support>
   <Registry>https://hub.docker.com/r/signumnetwork/node</Registry>
   <GitHub>https://github.com/signum-network/signum-node</GitHub>
