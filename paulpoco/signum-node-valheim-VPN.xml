@@ -33,6 +33,7 @@
   <Repository>signumnetwork/node:3.5.3-h2</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
+  <ExtraParams>--memory=2g --net=container:binhex-delugevpn --init</ExtraParams>
   <Networking>
     <Mode>none</Mode>
     <Publish>
