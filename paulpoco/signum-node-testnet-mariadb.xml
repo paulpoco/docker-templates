@@ -9,7 +9,7 @@
     January 31, 2022 Fix registry url
     April 9, 2023 add Testnet for this version with MariaDB
     April 10, 2023 correct TemplateURL
-    April 10, 2023 make mariadb version of template
+    April 10, 2023 make mariadb version of template, fix appdata path
   </Changes>
   <Project>https://github.com/signum-network/signum-node/</Project>
   <Name>signum-node-testnet-mariadb</Name>
@@ -49,7 +49,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/signum-node-testnet-h2/conf</HostDir>
+      <HostDir>/mnt/user/appdata/signum-node-testnet-mariadb/conf</HostDir>
       <ContainerDir>/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
