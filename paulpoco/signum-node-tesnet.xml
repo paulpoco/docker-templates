@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/signum-node.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/signum-node-testnet.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Crypto:</Category>
-  <Date>2023-04-09</Date>
+  <Date>2023-04-10</Date>
   <Changes>October 6, 2021 Signum-node for Unraid
     January 30, 2022 Remove port 8121
     January 31, 2022 Fix registry url
     April 9, 2023 add Testnet for this version with MariaDB
+    April 10, 2023 correct TemplateURL
   </Changes>
   <Project>https://github.com/signum-network/signum-node/</Project>
   <Name>signum-node</Name>
