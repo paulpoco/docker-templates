@@ -7,7 +7,7 @@
   <Changes>October 6, 2021 Signum-node for Unraid
     January 30, 2022 Remove port 8121
     January 31, 2022 Fix registry url
-    April 9, 2023 add Testnet for this version with MariaDB
+    April 9, 2023 add Testnet for this version with h2
     April 10, 2023 correct TemplateURL
   </Changes>
   <Project>https://github.com/signum-network/signum-node/</Project>
