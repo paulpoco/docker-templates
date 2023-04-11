@@ -48,12 +48,12 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/signum-node-testnet-h2/conf</HostDir>
+      <HostDir>/mnt/cache/appdata/signum-node-testnet-h2/conf</HostDir>
       <ContainerDir>/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/signum-node-tesnet-h2/db</HostDir>
+      <HostDir>/mnt/cache/appdata/signum-node-tesnet-h2/db</HostDir>
       <ContainerDir>/db</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
