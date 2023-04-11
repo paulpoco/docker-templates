@@ -47,6 +47,23 @@
       </Port>
     </Publish>
   </Networking>
+  <Environment>
+    <Variable>
+      <Value>000</Value>
+      <Name>UMASK</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/cache/appdata/signum-node-testnet-mariadb/conf</HostDir>
