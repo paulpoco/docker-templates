@@ -49,7 +49,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/signum-node-testnet-mariadb/conf</HostDir>
+      <HostDir>/mnt/cache/appdata/signum-node-testnet-mariadb/conf</HostDir>
       <ContainerDir>/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
