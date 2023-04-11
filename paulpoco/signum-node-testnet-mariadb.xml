@@ -29,7 +29,7 @@
   <Support>https://github.com/signum-network/signum-node</Support>
   <Registry>https://hub.docker.com/r/signumnetwork/node</Registry>
   <GitHub>https://github.com/signum-network/signum-node</GitHub>
-  <Repository>signumnetwork/node:pre_release_version_here-mariadb</Repository>
+  <Repository>signumnetwork/node:latest-maria</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
