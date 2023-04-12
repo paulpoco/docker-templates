@@ -3,13 +3,14 @@
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/signum-node-testnet-mariadb.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Crypto:</Category>
-  <Date>2023-04-10</Date>
+  <Date>2023-04-11</Date>
   <Changes>October 6, 2021 Signum-node for Unraid
     January 30, 2022 Remove port 8121
     January 31, 2022 Fix registry url
     April 9, 2023 add Testnet for this version with MariaDB
     April 10, 2023 correct TemplateURL
     April 10, 2023 make mariadb version of template, fix appdata path
+    April 11, 2023 correct container folders and remove permissions stuff
   </Changes>
   <Project>https://github.com/signum-network/signum-node/</Project>
   <Name>signum-node-testnet-mariadb</Name>
@@ -29,7 +30,7 @@
   <Support>https://github.com/signum-network/signum-node</Support>
   <Registry>https://hub.docker.com/r/signumnetwork/node</Registry>
   <GitHub>https://github.com/signum-network/signum-node</GitHub>
-  <Repository>signumnetwork/node:latest-maria</Repository>
+  <Repository>signumnetwork/node:3.7.0-beta9</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -47,27 +48,10 @@
       </Port>
     </Publish>
   </Networking>
-  <Environment>
-    <Variable>
-      <Value>000</Value>
-      <Name>UMASK</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>99</Value>
-      <Name>PUID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>100</Value>
-      <Name>PGID</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/cache/appdata/signum-node-testnet-mariadb/conf</HostDir>
-      <ContainerDir>/conf</ContainerDir>
+      <ContainerDir>/app/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
