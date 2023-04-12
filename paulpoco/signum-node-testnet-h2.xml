@@ -29,7 +29,7 @@
   <Support>https://github.com/signum-network/signum-node</Support>
   <Registry>https://hub.docker.com/r/signumnetwork/node</Registry>
   <GitHub>https://github.com/signum-network/signum-node</GitHub>
-  <Repository>signumnetwork/node:latest-h2</Repository>
+  <Repository>signumnetwork/node:3.7.0-beta9</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
