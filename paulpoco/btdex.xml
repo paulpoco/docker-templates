@@ -1,64 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/paulpoco/docker-templates/master/paulpoco/btdex.xml</TemplateURL>
-  <Beta>True</Beta>
+  <Beta>False</Beta>
   <Category>Crypto:</Category>
   <Date>2022-03-08</Date>
   <Changes>
-    2022.03.04[br]
-    - Initial release[br]
-    2022.03.08[br]
-    - move to latest from novnc-feature tag[br]
+    2023.10.20[br]
+    - Migrated from XVNC to KasmVNC
   </Changes>
   <Project>https://btdex.trade/</Project>
-  <Name>btdex</Name>
-  <Description>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.  </Description>
-  <Overview>This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui Docker image.   </Overview>
-  <Support>https://github.com/furritos/docker-btdex</Support>
+  <Name>BTDEX</Name>
+  <Overview>
+BTDEX in a Docker container based on linuxserver.io/KasmVNC Docker image.
+
+What is BTDEX?  It's a unique, serverless, non-custodial exchange method for cryptocurrencies and fiat currencies based on the Signum cryptocurrency.  
+The BTDEX application and the cross-chain/fiat smart contracts are open source. No need to trust your funds to closed source solutions.
+
+BTDEX is open-source software found at https://github.com/btdex/btdex.
+  </Overview>
+  <Support>https://github.com/furritos/docker-btdex/issues</Support>
   <Registry>https://hub.docker.com/r/furritos/docker-btdex:latest</Registry>
   <GitHub>https://github.com/furritos/docker-btdex</GitHub>
   <Repository>furritos/docker-btdex:latest</Repository>
-  <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>5800</HostPort>
-        <ContainerPort>8080</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Environment>
-    <Variable>
-      <Name>DISPLAY_WIDTH</Name>
-      <Value>1440|1680</Value>
-    </Variable>
-    <Variable>
-      <Name>DISPLAY_HEIGHT</Name>
-      <Value>800|900|1050</Value>
-    </Variable>
-  </Environment>  
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/btdex/config</HostDir>
-      <ContainerDir>/opt/btdex/.config/btdex</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/Media</HostDir>
-      <ContainerDir>/opt/btdex/plots</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/btdex/cache</HostDir>
-      <ContainerDir>/opt/btdex/cache</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <WebUI>http://[IP]:[PORT:8080]/vnc.html?autoconnect=true</WebUI>
+  <Network>bridge</Network>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <Banner></Banner>
   <Icon>https://github.com/paulpoco/docker-templates/raw/master/paulpoco/images/btdex.png</Icon>
   <ExtraParams></ExtraParams>
+  <Config Name="Configuration Storage Path" Target="/opt/btdex/.config/btdex" Default="" Mode="rw" Description="BTDEX Configuration Path" Type="Path" Display="always" Required="true" Mask="false" />
+  <Config Name="Plot Storage Path" Target="/opt/btdex/plots" Default="" Mode="rw" Description="Signum Plot Path" Type="Path" Display="always" Required="false" Mask="false" />
+  <Config Name="Cache Storage Path" Target="/opt/btdex/cache" Default="" Mode="rw" Description="Signum Cache Path" Type="Path" Display="always" Required="false" Mask="false" />
+  <Config Name="HTTP Port" Target="3000" Default="3000" Mode="tcp" Description="HTTP Port" Type="Port" Display="always-hide" Required="true" Mask="false">3000</Config>
+  <Config Name="HTTPS Port" Target="3001" Default="3001" Mode="tcp" Description="HTTPS Port" Type="Port" Display="always-hide" Required="false" Mask="false" />
+  <Config Name="BTDEX API Port" Target="9000" Default="9000" Mode="tcp" Description="BTDEX API Port" Type="Port" Display="always-hide" Required="false" Mask="false" />
 </Containers>
